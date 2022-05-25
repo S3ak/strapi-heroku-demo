@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scarves",
+  "info": {
+    "singularName": "scarf",
+    "pluralName": "scarves",
+    "displayName": "scarf"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "green",
+        "brown",
+        "white",
+        "black",
+        "red"
+      ]
+    },
+    "hero_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "is_featured": {
+      "type": "boolean"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
