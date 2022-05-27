@@ -10764,7 +10764,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg-connection-string@npm:2.5.0":
+"pg-connection-string@npm:2.5.0, pg-connection-string@npm:^2.5.0":
   version: 2.5.0
   resolution: "pg-connection-string@npm:2.5.0"
   checksum: a6f3a068f7c9416a5b33a326811caf0dfaaee045c225b7c628b4c9b4e9a2b25bdd12a21e4c48940e1000ea223a4e608ca122d2ff3dd08c8b1db0fc9f5705133a
@@ -12788,6 +12788,7 @@ __metadata:
     "@strapi/plugin-users-permissions": 4.1.11
     "@strapi/strapi": 4.1.11
     better-sqlite3: 7.4.6
+    pg-connection-string: ^2.5.0
   languageName: unknown
   linkType: soft
 
